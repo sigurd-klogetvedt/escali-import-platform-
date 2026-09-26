@@ -1,0 +1,217 @@
+{
+    "header": {
+        "signOut": "Logg ut",
+        "settings": "Innstillinger"
+    },
+    "login": {
+        "signIn": "Logg inn for å fortsette",
+        "button": "Fortsett med Microsoft Entra ID",
+        "signingIn": "Logger inn...",
+        "terms": "Ved å fortsette bekrefter du at du forstår og godtar <1>Vilkårene for bruk</1> og <3>Personvernerklæringen</3>."
+    },
+    "dashboard": {
+        "selectType": "Velg Type",
+        "mapButton": "Kartlegg",
+        "mapButtonDisabledHint": "Velg en type for å aktivere mapping"
+    },
+    "filerow": {
+        "uploads": "Alle opplastinger",
+        "filterButton": "Filtrer",
+        "manageTemplatesButton": "Administrer Maler",
+        "companyFiles": "Bedriftsfiler"
+    },
+    "dropzone": {
+        "prompt": "Dra filen din hit, eller klikk for å laste opp",
+        "maxSize": "Maks filstørrelse: {{size}}MB. Støtter: {{types}}",
+        "uploadButton": "Last opp filer",
+        "uploading": "Laster opp...",
+        "removeFile": "Fjern fil",
+        "errorFileSize": "Filen \"{{name}}\" overskrider maks størrelse på {{max}}MB",
+        "errorFileType": "Filen \"{{name}}\" har en filtype som ikke støttes",
+        "errorUpload": "Kunne ikke laste opp \"{{name}}\""
+    },
+    "notFound": {
+        "message": "Siden ble ikke funnet",
+        "backHome": "Tilbake til forsiden"
+    },
+    "mappingPage": {
+        "header": "Kartlegg ditt {{sheetType}} datasett",
+        "subheader": "Dra grensesnittverdier til kolonneoverskriftene for å koble datasettet.",
+        "templateHeader": "Mal",
+        "templateHeaderOptional": "(valgfritt)",
+        "templateSubheader": "Bruk en eksisterende mal, eller opprett en for å gjøre fremtidige opplastinger raskere.",
+        "templateUseButton": "Velg en mal",
+        "templateCreateButton": "Opprett Mal",
+        "notMapped": "Ikke Kartlagt",
+        "searchTags": "Søk etter tagger",
+        "sortTagsButton": "Sorter etter",
+        "searchColumn": "Søk etter kolonner",
+        "addMapping": "Legg til kartlegging",
+        "backButton": "Tilbake",
+        "reviewButton": "Gjennomgang",
+        "cancelButton": "Avbryt",
+        "tooltipInvalidValues": "En eller flere verdier for denne kolonnen er ikke gyldige.",
+        "leaveConfirm": "Du har kartlagte data som vil gå tapt hvis du forlater siden. Vil du forlate?",
+        "templatesLoading": "Laster maler...",
+        "templatesEmpty": "Ingen maler funnet for denne datasett typen.",
+        "templateEmptyOption": "Tom (nullstill kartlegging)",
+        "templatesLoadError": "Maler kunne ikke lastes inn.",
+        "templateCreateDialogTitle": "Opprett kartleggingsmal",
+        "templateCreateDialogDescription": "Lagre de nåværende kolonnekartleggingene ({{count}}) som en gjenbrukbar mal for dette datasettet.",
+        "templateNameLabel": "Malnavn",
+        "templateNamePlaceholder": "f.eks. Månedlige transaksjoner",
+        "templateCreateSubmit": "Lagre mal",
+        "templateCreateSaving": "Lagrer...",
+        "templateCreateNoMappingsTitle": "Ingenting å lagre",
+        "templateCreateNoMappingsDescription": "Kartlegg minst én filkolonne til et grensesnittfelt før du oppretter en mal.",
+        "templateCreateNameRequired": "Skriv inn et malnavn.",
+        "templateCreateSuccessTitle": "Mal lagret",
+        "templateCreateErrorTitle": "Kunne ikke lagre mal",
+        "templateCreateErrorFallback": "En uventet feil oppstod.",
+        "templateApplySuccessTitle": "Mal brukt",
+        "templateApplySuccessDescription": "{{applied}} kolonnekartlegging(er) ble satt fra malen.",
+        "templateApplyErrorTitle": "Kunne ikke laste mal",
+        "templateApplyInterfaceMismatch": "Denne malen tilhører et annet grensesnitt.",
+        "templateApplyNothingDescription": "Ingen matchende filkolonner eller grensesnittfelt ble funnet for denne malen.",
+        "templateApplyWaitColumns": "Vent til grensesnittkolonner er ferdig lastet før du bruker en mal."
+    },
+    "breadcrumb": {
+        "home": "Hjem"
+    },
+    "sheetTypes": {
+        "transactions": "Transaksjoner",
+        "collateral_objects": "Panteobjekter",
+        "collateral_values": "Panteverdier",
+        "market_rates": "Kurser",
+        "currency_rates": "Valutakurser",
+        "interest_data": "Stamdata",
+        "security_data": "Verdipapirinformasjon",
+        "balances": "Beholdninger"
+    },
+    "statuses": {
+        "completed": "Fullført",
+        "draft": "Utkast",
+        "none": "Ingen"
+    },
+    "moreButton": {
+        "buttonPreview": "Forhåndsvisning",
+        "buttonDownload": "Last ned",
+        "buttonDelete": "Slett"
+    },
+    "deleteDialog": {
+        "title": "Slett ark",
+        "description": "Er du sikker på at du vil slette \"{{sheetName}}\"",
+        "warning": "Dette er en ugjenkallelig handling. Dette vil slette arket og all tilhørende data permanent.",
+        "cancelLabel": "Avbryt",
+        "deleteLabel": "Slett",
+        "deletingLabel": "Sletter..."
+    },
+    "common": {
+        "loading": "Laster...",
+        "files": "filer",
+        "nofiles": "Ingen filer funnet.",
+        "search": "Søk"
+    },
+    "adminDialog": {
+        "dialogTitle": "Adminpanel",
+        "dialogDescription": "Administrer brukere, filer og maler fra adminpanelet.",
+        "sidebarAriaLabel": "Adminseksjoner",
+        "navTitle": "Administrator",
+        "usersTitle": "Brukere",
+        "filesLabel": "Filer",
+        "templatesLabel": "Maler",
+        "newLabel": "Ny",
+        "sortLabel": "Sorter",
+        "searchLabel": "Søk",
+        "administrator": "Administrator",
+        "you": "du",
+        "edit": "Rediger",
+        "delete": "Slett",
+        "empty": "Ingen brukere funnet.",
+        "loadError": "Kunne ikke laste brukere.",
+        "filesPanelTitle": "Filseksjon",
+        "filesPanelDescription": "Verktøy for filadministrasjon vil bli tilgjengelig her.",
+        "templatesPanelTitle": "Malseksjon",
+        "templatesPanelDescription": "Verktøy for maladministrasjon vil bli tilgjengelig her."
+    },
+    "popover": {
+        "loadFailed": "Kunne ikke laste inn verdier",
+        "loadNoContent": "Ingen verdier tilgjengelig",
+        "searchAriaLabel": "Søk etter godkjente verdier"
+    },
+    "toast": {
+        "upload": {
+            "successTitle": "Filen er lastet opp",
+            "errorTitle": "Opplasting mislyktes",
+            "fallbackErrorDescription": "Det oppstod en uventet feil under opplasting av filen."
+        },
+        "delete": {
+            "successTitle": "Filen er slettet",
+            "errorTitle": "Sletting mislyktes",
+            "fallbackErrorDescription": "Det oppstod en uventet feil under sletting av filen."
+        },
+        "download": {
+            "successTitle": "Filen er lastet ned",
+            "errorTitle": "Nedlasting mislyktes",
+            "fallbackErrorDescription": "Det oppstod en uventet feil under nedlasting av filen."
+        },
+        "dropzone": {
+            "invalidFileTitle": "Ugyldig fil"
+        },
+        "mapping": {
+            "previewErrorTitle": "Kunne ikke laste filforhåndsvisning",
+            "interfaceColumnsErrorTitle": "Kunne ikke laste grensesnittkolonner",
+            "approvedValuesErrorTitle": "Kunne ikke laste godkjente verdier",
+            "approvedValuesErrorDescription": "For kolonnen \"{{column}}\".",
+            "validationBlockedTitle": "Kan ikke fortsette",
+            "validationBlockedDescription_one": "{{count}} celle har ugyldige verdier.",
+            "validationBlockedDescription_other": "{{count}} celler har ugyldige verdier.",
+            "markMappedSuccessTitle": "Filen er kartlagt",
+            "markMappedErrorTitle": "Kunne ikke sende inn kartleggingen",
+            "markMappedFallbackErrorDescription": "Det oppstod en uventet feil under innsending av kartleggingen.",
+            "mappingTemplatesErrorTitle": "Kunne ikke laste inn maler"
+        },
+        "admin": {
+            "deleteUserSuccessTitle": "Bruker slettet",
+            "deleteUserErrorTitle": "Kunne ikke slette bruker",
+            "loadUsersErrorTitle": "Kunne ikke laste brukere"
+        },
+        "auth": {
+            "logoutErrorTitle": "Kunne ikke logge ut"
+        }
+    },
+    "reviewPage": {
+        "header": "Gjennomgå dine kartlagte data",
+        "subheader": "Kontroller at hver kolonne er riktig tilordnet før du fortsetter. Du kan fjerne rader nedenfor ved å fjerne avmerkingen i avkrysningsboksen, eller gå tilbake for å justere kartleggingene dine.",
+        "noData": "Ingen data å gjennomgå",
+        "tableSummary_one": "Sammendrag: {{rows}} rad, {{columns}} kolonne",
+        "tableSummary_other": "Sammendrag: {{rows}} rader, {{columns}} kolonner",
+        "mappingButton": "Sender inn..."
+    },
+    "conflictActionBar": {
+        "noConflicts": "Ingen konflikter",
+        "currentCell": "Nåværende",
+        "conflicts": "Konflikter"
+    },
+    "validation": {
+        "rulesHeader": "Kartleggingen oppfyller ikke de påkrevde reglene:",
+        "rules": {
+            "SecurityIdentifier": "Minst én av Instrument ID 1, Instrument ID 2, eller Instrument navn må være oppgitt.",
+            "AmountDerivation": "Oppgi nok felt til å beregne de resterende beløpsverdiene implisitt.",
+            "RequiredFields": "Transaksjonstype, transaksjonsdato og antall er påkrevd.",
+            "fallback": "Regel '{{ruleName}}' ble ikke oppfylt."
+        }
+    },
+    "mappingFilter": {
+        "sort": {
+            "nameAsc": "Navn (A-Å)",
+            "nameDesc": "Navn (Å-A)",
+            "nameAscShort": "Navn (A-Å)",
+            "nameDescShort": "Navn (Å-A)",
+            "required": "Påkrevd",
+            "sort": "Sorter",
+            "dataType": "Datatype",
+            "partially": "Delvis påkrevd"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html {
+    font-weight: 500;
+}
+
+.base-ui-popup-animation {
+    transform-origin: var(--transform-origin);
+    transition: opacity 100ms ease-out, transform 100ms ease-out;
+}
+
+.base-ui-popup-animation[data-starting-style],
+.base-ui-popup-animation[data-ending-style] {
+    opacity: 0;
+    transform: translateY(4px) scale(0.96);
+}
+
+/* Base UI tooltip open/close transition */
+.base-ui-tooltip-animation {
+    transform-origin: var(--transform-origin);
+    transition: opacity 100ms ease-out, transform 100ms ease-out;
+}
+  
+.base-ui-tooltip-animation[data-starting-style],
+.base-ui-tooltip-animation[data-ending-style] {
+    opacity: 0;
+    transform: translateY(2px) scale(0.98);
+}

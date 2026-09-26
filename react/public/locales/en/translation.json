@@ -1,0 +1,217 @@
+{
+    "header": {
+        "signOut": "Sign out",
+        "settings": "Settings"
+    },
+    "login": {
+        "signIn": "Sign in to continue",
+        "button": "Continue with Microsoft Entra ID",
+        "signingIn": "Signing in...",
+        "terms": "By continuing, you acknowledge that you understand and agree to the <1>Terms of Services</1> and <3>Privacy Policy</3>."
+    },
+    "dashboard": {
+        "selectType": "Select Type",
+        "mapButton": "Map",
+        "mapButtonDisabledHint": "Select a type to enable mapping"
+    },
+    "filerow": {
+        "uploads": "All uploads",
+        "filterButton": "Filter",
+        "manageTemplatesButton": "Manage Templates",
+        "companyFiles": "Company files"
+    },
+    "dropzone": {
+        "prompt": "Drag your file here, or click to upload",
+        "maxSize": "Maximum file size: {{size}}MB. Supports: {{types}}",
+        "uploadButton": "Upload files",
+        "uploading": "Uploading...",
+        "removeFile": "Remove file",
+        "errorFileSize": "File \"{{name}}\" exceeds the maximum size of {{max}}MB",
+        "errorFileType": "File \"{{name}}\" has an unsupported file type",
+        "errorUpload": "Failed to upload \"{{name}}\""
+    },
+    "notFound": {
+        "message": "Page not found",
+        "backHome": "Go back"
+    },
+    "mappingPage": {
+        "header": "Map your {{sheetType}} dataset",
+        "subheader": "Drag interface values onto your column headers to link the dataset.",
+        "templateHeader": "Template",
+        "templateHeaderOptional": "(optional)",
+        "templateSubheader": "Use an existing template, or create one to make future uploads faster.",
+        "templateUseButton": "Select a template",
+        "templateCreateButton": "Create Template",
+        "notMapped": "Not Mapped",
+        "searchTags": "Search for tags",
+        "sortTagsButton": "Sort by",
+        "searchColumn": "Search For Column",
+        "addMapping": "Add mapping",
+        "backButton": "Back",
+        "reviewButton": "Review",
+        "cancelButton": "Cancel",
+        "tooltipInvalidValues": "One or more values for this column is not allowed.",
+        "leaveConfirm": "You have mapped data that will be lost if you leave this page. Leave anyway?",
+        "templatesLoading": "Loading templates...",
+        "templatesEmpty": "No templates for this interface.",
+        "templateEmptyOption": "Empty (reset mappings)",
+        "templatesLoadError": "Templates could not be loaded.",
+        "templateCreateDialogTitle": "Create mapping template",
+        "templateCreateDialogDescription": "Save the current column mappings ({{count}}) as a reusable template for this interface.",
+        "templateNameLabel": "Template name",
+        "templateNamePlaceholder": "e.g. Monthly transactions",
+        "templateCreateSubmit": "Save template",
+        "templateCreateSaving": "Saving...",
+        "templateCreateNoMappingsTitle": "Nothing to save",
+        "templateCreateNoMappingsDescription": "Map at least one file column to an interface field before creating a template.",
+        "templateCreateNameRequired": "Enter a template name.",
+        "templateCreateSuccessTitle": "Template saved",
+        "templateCreateErrorTitle": "Could not save template",
+        "templateCreateErrorFallback": "An unexpected error occurred.",
+        "templateApplySuccessTitle": "Template applied",
+        "templateApplySuccessDescription": "{{applied}} column mapping(s) applied from the template.",
+        "templateApplyErrorTitle": "Could not load template",
+        "templateApplyInterfaceMismatch": "This template belongs to a different interface.",
+        "templateApplyNothingDescription": "No matching file columns or interface fields were found for this template.",
+        "templateApplyWaitColumns": "Wait for interface columns to finish loading before applying a template."
+    },
+    "breadcrumb": {
+        "home": "Home"
+    },
+    "sheetTypes": {
+        "transactions": "Transactions",
+        "collateral_objects": "Collateral objects",
+        "collateral_values": "Collateral values",
+        "market_rates": "Market rates",
+        "currency_rates": "Currency rates",
+        "interest_data": "Interest data",
+        "security_data": "Security data",
+        "balances": "Balances"
+    },
+    "statuses": {
+        "completed": "Completed",
+        "draft": "Draft",
+        "none": "None"
+    },
+    "moreButton": {
+        "buttonPreview": "Preview",
+        "buttonDownload": "Download",
+        "buttonDelete": "Delete"
+    },
+    "deleteDialog": {
+        "title": "Delete Sheet",
+        "description": "Are you sure you want to delete \"{{sheetName}}\"",
+        "warning": "This is an irreversible action. This will permanently delete the sheet and all the data associated with it.",
+        "cancelLabel": "Cancel",
+        "deleteLabel": "Delete",
+        "deletingLabel": "Deleting..."
+    },
+    "common": {
+        "loading": "Loading...",
+        "files": "files",
+        "nofiles": "No files found.",
+        "search": "Search"
+    },
+    "adminDialog": {
+        "dialogTitle": "Admin panel",
+        "dialogDescription": "Manage users, files, and templates from the admin panel.",
+        "sidebarAriaLabel": "Admin sections",
+        "navTitle": "Administrator",
+        "usersTitle": "Users",
+        "filesLabel": "Files",
+        "templatesLabel": "Templates",
+        "newLabel": "New",
+        "sortLabel": "Sort",
+        "searchLabel": "Search",
+        "administrator": "Administrator",
+        "you": "you",
+        "edit": "Edit",
+        "delete": "Delete",
+        "empty": "No users found.",
+        "loadError": "Failed to load users.",
+        "filesPanelTitle": "Files section",
+        "filesPanelDescription": "File administration tools will be available here.",
+        "templatesPanelTitle": "Templates section",
+        "templatesPanelDescription": "Template administration tools will be available here."
+    },
+    "popover": {
+        "loadFailed": "Failed to load values",
+        "loadNoContent": "No values available",
+        "searchAriaLabel": "Search approved column values"
+    },
+    "toast": {
+        "upload": {
+            "successTitle": "File uploaded",
+            "errorTitle": "Upload failed",
+            "fallbackErrorDescription": "An unexpected error occurred while uploading the file."
+        },
+        "delete": {
+            "successTitle": "File deleted",
+            "errorTitle": "Delete failed",
+            "fallbackErrorDescription": "An unexpected error occurred while deleting the file."
+        },
+        "download": {
+            "successTitle": "File downloaded",
+            "errorTitle": "Download failed",
+            "fallbackErrorDescription": "An unexpected error occurred while downloading the file."
+        },
+        "dropzone": {
+            "invalidFileTitle": "Invalid file"
+        },
+        "mapping": {
+            "previewErrorTitle": "Could not load file preview",
+            "interfaceColumnsErrorTitle": "Could not load interface columns",
+            "approvedValuesErrorTitle": "Could not load approved values",
+            "approvedValuesErrorDescription": "For column \"{{column}}\".",
+            "validationBlockedTitle": "Cannot continue",
+            "validationBlockedDescription_one": "{{count}} cell has invalid values.",
+            "validationBlockedDescription_other": "{{count}} cells have invalid values.",
+            "markMappedSuccessTitle": "File mapped",
+            "markMappedErrorTitle": "Could not submit mapping",
+            "markMappedFallbackErrorDescription": "An unexpected error occurred while submitting the mapping.",
+            "mappingTemplatesErrorTitle": "Could not load mapping templates"
+        },
+        "admin": {
+            "deleteUserSuccessTitle": "User deleted",
+            "deleteUserErrorTitle": "Could not delete user",
+            "loadUsersErrorTitle": "Could not load users"
+        },
+        "auth": {
+            "logoutErrorTitle": "Could not sign out"
+        }
+    },
+    "reviewPage": {
+        "header": "Review your mapped data",
+        "subheader": "Check that each column is mapped correctly before continuing. You can remove rows below by unchecking the checkbox, or go back to adjust your column mappings.",
+        "noData": "No mapped data to review",
+        "tableSummary_one": "Summary: {{rows}} row, {{columns}} column",
+        "tableSummary_other": "Summary: {{rows}} rows, {{columns}} columns",
+        "mappingButton": "Submitting..."
+    },
+    "conflictActionBar": {
+        "noConflicts": "No conflicts",
+        "currentCell": "Current",
+        "conflicts": "Conflicts"
+    },
+    "validation": {
+        "rulesHeader": "Mapping does not satisfy required rules:",
+        "rules": {
+            "SecurityIdentifier": "At least one of Security ID 1, Security ID 2, or Security name must be provided.",
+            "AmountDerivation": "Provide enough fields to derive the remaining amount values.",
+            "RequiredFields": "Transaction type, Transaction date, and Quantity are required.",
+            "fallback": "Rule '{{ruleName}}' was not satisfied."
+        }
+    },
+    "mappingFilter": {
+        "sort": {
+            "nameAsc": "Name (A-Z)",
+            "nameDesc": "Name (Z-A)",
+            "nameAscShort": "Name (A-Z)",
+            "nameDescShort": "Name (Z-A)",
+            "required": "Required",
+            "sort": "Sort",
+            "dataType": "Data type",
+            "partially": "Partially required"
+        }
+    }
+}
